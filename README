@@ -1,0 +1,43 @@
+# Bodyly | Gentle BMI Calculator
+
+A soft and friendly BMI calculator built with **HTML, CSS, and JavaScript**.  
+Designed to help users understand their BMI with gentle guidance and educational context.
+
+## Features
+- Calculate BMI using weight (kg) and height (cm)
+- Friendly color-coded BMI results
+- Reset option to start fresh
+- Educational page explaining BMI and ranges
+- Soft, accessible UI design
+
+## Tech Stack
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts
+
+## Project Structure
+/bodyly/
+  index.html
+  bmi-info.html
+  /css/style.css
+  /js/script.js
+  /assets/
+
+## Screenshots
+![Bodyly Landing Page - Desktop](<assets/Landing Page - Desktop.jpeg>)
+![Bodyly Result Display - Desktop](<assets/Result Display - Desktop.jpeg>)
+![Bodyly Information Page - Desktop](<assets/Information Page - Desktop.jpeg>)
+
+![Bodyly Landing Page - Mobile](<assets/Landing Page - Mobile.jpeg>)
+![Bodyly Result Display - Mobile](<assets/Result Display - Mobile.jpeg>)
+![Bodyly Information Page - Mobile](<assets/Information Page - Mobile.jpeg>)
+
+## Future Enhancements
+- Optional units (lbs/inches)
+- Animated BMI progress bar
+- Mobile-first refinements
+- History of calculations (localStorage)
+
+## Demo
+

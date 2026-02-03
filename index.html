@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodyly | Gentle BMI Calculator</title>
+    <link rel="shortcut icon" href="assets/Bodyly Fav-icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Bodyly</h1>
+            <p>A gentle way to understand your body.</p>
+        </header>
+
+        <!--BMI Calculator-->
+        <section>
+            <h2>Check Your BMI</h2>
+            
+            <form>
+                <div>
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" name="weight" min="1" step="0.1" required>
+                </div>
+                
+                <div>
+                    <label for="height">Height (cm):</label>
+                    <input type="number" id="height" name="height" min="50" step="0.1" required>
+                </div>
+
+                <div class="buttons">
+                    <button type="submit">Calculate BMI</button>
+                    <button type="button" id="resetBtn">Reset</button>
+                </div>
+                
+            </form>
+        </section>
+
+        <section id="result">
+            <h3>Your result</h3>
+            <p class="result-text">Enter your details to see your BMI.</p>
+
+            <p><a href="bmi-info.html">Learn more about BMI</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Bodyly. All rights reserved.</p>
+        </footer>
+    </main> 
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
