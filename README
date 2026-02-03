@@ -20,24 +20,34 @@ Designed to help users understand their BMI with gentle guidance and educational
 /bodyly/
   index.html
   bmi-info.html
-  /css/style.css
-  /js/script.js
-  /assets/
+  css/
+    style.css
+  js/
+    script.js
+  assets/
 
 ## Screenshots
-![Bodyly Landing Page - Desktop](<assets/Landing Page - Desktop.jpeg>)
-![Bodyly Result Display - Desktop](<assets/Result Display - Desktop.jpeg>)
-![Bodyly Information Page - Desktop](<assets/Information Page - Desktop.jpeg>)
+![Bodyly Landing Page - Desktop](assets/Landing Page - Desktop.jpeg)
+![Bodyly Result Display - Desktop](assets/Result Display - Desktop.jpeg)
+![Bodyly Information Page - Desktop](assets/Information Page - Desktop.jpeg)
 
-![Bodyly Landing Page - Mobile](<assets/Landing Page - Mobile.jpeg>)
-![Bodyly Result Display - Mobile](<assets/Result Display - Mobile.jpeg>)
-![Bodyly Information Page - Mobile](<assets/Information Page - Mobile.jpeg>)
+![Bodyly Landing Page - Mobile](assets/Landing Page - Mobile.jpeg)
+![Bodyly Result Display - Mobile](assets/Result Display - Mobile.jpeg)
+![Bodyly Information Page - Mobile](assets/Information Page - Mobile.jpeg)
 
 ## Future Enhancements
 - Optional units (lbs/inches)
 - Animated BMI progress bar
-- Mobile-first refinements
+- Mobile-first UI refinements
 - History of calculations (localStorage)
 
-## Demo
+## Live Demo
+[Try Bodyly BMI Calculator]https://avanii18.github.io/bodyly-bmi-calculator/index.html
 
+![GitHub Repo Size](https://img.shields.io/github/repo-size/avanii18/bodyly-bmi-calculator)
+![GitHub Pages](https://img.shields.io/github/deployments/avanii18/bodyly-bmi-calculator/github-pages)
+
+## Getting Started
+1. Clone the repo: `git clone https://github.com/avanii18/bodyly-bmi-calculator.git`
+2. Open `index.html` in a browser
+3. Enjoy calculating BMI!
